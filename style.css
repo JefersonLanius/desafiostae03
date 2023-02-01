@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-family: "Staatliches";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+}
+p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+header {
+  color: #fff;
+  position: absolute;
+  width: 417px;
+  height: 46px;
+
+  top: 140px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+body {
+  background: #e5e5e5;
+}
+body::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 436px;
+  left: 0px;
+  top: -2px;
+  z-index: -1;
+  background: #535971;
+}
+
+.page {
+  width: 750px;
+  margin: 0 auto;
+ position: relative;
+  padding-bottom: 50px;
+}
+.my-form {
+  position: absolute;
+  width: 750px;
+  height: 1084px;
+
+  top: 320px;
+  padding-top: 64px;
+  padding-left: 54px;
+  padding-right: 74px;
+  gap: 16px;
+
+  background: #ffffff;
+  border-radius: 20px 20px 0px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset legend {
+  font-family: "Staatliches";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+
+  color: #535971;
+
+  border-bottom: 1px solid #e6e6f0;
+  padding-bottom: 16px;
+}
+.full-name {
+  display: flex;
+  gap: 22px;
+  margin-top: 36px;
+}
+.mentor-name {
+  margin-top: 36px;
+}
+.first-name,
+.last-name,
+.email-adress,
+.email-password,
+.mentor-name,
+.first-date,
+.inictial-time,
+.finish-time,
+.second-date {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.first-name input,
+.last-name input,
+.email-adress input,
+.email-password input,
+.mentor-name input,
+.first-date input,
+.inictial-time input,
+.finish-time input,
+.second-date input {
+  width: 300px;
+  height: 56px;
+  border-radius: 8px;
+  border: 1px solid #e6e6f0;
+  margin-top: 8px;
+}
+.email-adress input,
+.email-password input,
+.mentor-name input {
+  width: 100%;
+}
+.email-adress span,
+.email-password span,
+.mentor-name span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #c1bccc;
+}
+label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #4e4958;
+}
+
+h2 {
+  font-family: "Staatliches";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  color: #535971;
+  padding-top: 16px;
+}
+.first-mentory,
+.second-mentory {
+  display: flex;
+  gap: 22px;
+}
+.first-mentory div,
+.second-mentory div {
+  display: flex;
+  flex-direction: column;
+}
+.first-mentory input,
+.second-mentory input {
+  width: 140px;
+  height: 56px;
+}
+.first-mentory > div:nth-child(1) {
+  width: 100%;
+}
+
+.second-mentory > div:nth-child(1) {
+  width: 100%;
+}
+.first-mentory .first-date input,
+.second-mentory .second-date input {
+  width: 100%;
+}
+footer {
+  background-color: green;
+  border-bottom: 1px solid black;
+}
